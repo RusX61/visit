@@ -1,0 +1,173 @@
+body{
+    width: 100vw;
+    overflow-x:hidden;
+}
+
+header{
+    background-color: #070707;
+}
+
+a{
+    text-decoration: none;
+    color: #828282;
+}
+
+h2{
+    margin: 0;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.container{
+    width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.menuLink{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;  
+}
+
+.menuLink :hover{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #f8f8f8;
+}
+
+.line{
+    margin-top: 36px;
+    padding-bottom: 2px;
+    width: 100%;
+    height: 4px;
+    background-color:#828282;
+
+}
+
+.bio{
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.name{
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+}
+
+/* .language{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+} */
+
+.photo{
+    width: 944px;
+    margin-top: 24px;
+    padding-bottom: 24px;
+}
+
+.aboutMeSection, .portfolioSection{
+    background-color:#F6F6F6;
+    padding-bottom: 48px;
+}
+
+.textAbout{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skillsFirst{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillsSecond{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.skillIcon{
+    position: relative;
+    justify-content: center;
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    background-color: #d3d3d38f;
+}
+
+.skillIcon img{
+    margin: 0;
+    position: absolute;              
+    top: 50%;
+    transform: translate(0, -50%) ;
+    width: 88px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.webinar{
+    text-align: center;
+}
+
+.webinar img{
+max-width: 100%;
+margin-bottom: 44px;
+}
+
+.webinar a{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+.chat{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 48px;
+}
+
+.social{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 48px;
+}
+
+.icon{
+    margin-right: 16px;
+}

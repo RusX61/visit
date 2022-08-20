@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(../fonts/Gilroy-Light.otf)
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../fonts/gilroy-medium.ttf)
+}
