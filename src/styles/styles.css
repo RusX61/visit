@@ -1,10 +1,13 @@
 body{
     width: 100vw;
     overflow-x:hidden;
+    position: relative;
 }
 
 header{
     background-color: #070707;
+    position: fixed;
+    width: 100vw;
 }
 
 a{
@@ -38,7 +41,7 @@ h2{
 .menuLink{
     font-family: 'Gilroy-Bold';
     font-size: 18px;
-    line-height: 22px;  
+    line-height: 22px;
 }
 
 .menuLink :hover{
@@ -58,7 +61,7 @@ h2{
 }
 
 .bio{
-    padding-top: 36px;
+    padding-top: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,38 +106,35 @@ h2{
 }
 
 .skillsFirst{
-    margin-left: 130px;
-    margin-right: 130px;
     margin-bottom: 44px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .skillsSecond{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 44px;
 }
 
 .skillIcon{
-    position: relative;
+    display: flex;
     justify-content: center;
+    align-items: center;
     width: 148px;
     height: 148px;
     border-radius: 50%;
-    background-color: #d3d3d38f;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
 }
 
 .skillIcon img{
-    margin: 0;
-    position: absolute;              
-    top: 50%;
-    transform: translate(0, -50%) ;
     width: 88px;
-    padding-top: 5px;
-    padding-left: 30px;
 }
 
 .webinar{
@@ -170,4 +170,9 @@ margin-bottom: 44px;
 
 .icon{
     margin-right: 16px;
+}
+
+.icon:hover{
+    border-radius: 20%;
+    background: linear-gradient(350deg, #f0f0f0, #cacaca);
 }
