@@ -169,10 +169,11 @@ margin-bottom: 44px;
 }
 
 .icon{
-    margin-right: 16px;
+    padding: 16px;
+    transition: 0.4s linear;
 }
 
 .icon:hover{
-    border-radius: 20%;
+    border-radius: 50%;
     background: linear-gradient(350deg, #f0f0f0, #cacaca);
 }
