@@ -177,3 +177,10 @@ margin-bottom: 44px;
     border-radius: 50%;
     background: linear-gradient(350deg, #f0f0f0, #cacaca);
 }
+
+#about:before, #skills:before, #portfolio:before{
+	display: block;
+	content: "";
+	height: 55px;
+	margin: -55px 0 0;
+}
