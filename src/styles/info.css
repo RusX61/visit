@@ -1,0 +1,32 @@
+
+.infoSection__bio{
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.infoSection__name{
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+}
+
+/* .language{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+} */
+
+.infoSection__img{
+    width: 944px;
+    margin-top: 24px;
+    padding-bottom: 24px;
+}

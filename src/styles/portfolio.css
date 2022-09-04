@@ -1,0 +1,16 @@
+
+.portfolioSection__webinar{
+    text-align: center;
+}
+
+.portfolioSection__webinar img{
+max-width: 100%;
+margin-bottom: 44px;
+}
+
+.portfolioSection__webinar a{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}

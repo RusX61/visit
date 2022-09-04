@@ -1,0 +1,13 @@
+
+.aboutMeSection, .portfolioSection{
+    background-color:#F6F6F6;
+    padding-bottom: 48px;
+}
+
+.aboutMeSection__textAbout{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}

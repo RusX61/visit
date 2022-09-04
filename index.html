@@ -9,47 +9,53 @@
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/fonts/fonts.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/info.css">
+    <link rel="stylesheet" href="src/styles/about.css">
+    <link rel="stylesheet" href="src/styles/skills.css">
+    <link rel="stylesheet" href="src/styles/portfolio.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <nav class="containerMenu">
-                <div class="menuLink">
+            <nav class="menu">
+                <div class="menu__link">
                     <a href="#top">Home</a>
                 </div>
-                <div class="menuLink">
+                <div class="menu__link">
                     <a href="#about">About me</a>
                 </div>
-                <div class="menuLink">
+                <div class="menu__link">
                     <a href="#skills">Skills</a>
                 </div>
-                <div class="menuLink">
+                <div class="menu__link">
                     <a href="#portfolio">Portfolio</a>
                 </div>
-                <div class="menuLink">
+                <div class="menu__link">
                     <a href="#contacts">Contacts</a>
                 </div>
             </nav>
-            <div class="line"></div>
+            <div class="menu__line"></div>
         </div>
     </header>
     <main>
         <section class="infoSection" id="top">
             <div class="container">
-                <div class="bio">
-                    <div class="name">Ruslan<br>Merzlyakov</div>
-                    <div class="info">Frontend Developer <br> 28 years old, Taganrog</div>
+                <div class="infoSection__bio">
+                    <div class="infoSection__name">Ruslan<br>Merzlyakov</div>
+                    <div class="infoSection__info">Frontend Developer <br> 28 years old, Taganrog</div>
                     <!-- <div class="language">
                         <button>RU</button> | <button>ENG</button>
                     </div> -->
                 </div>
-                <div class="photo"><img src="src/img/photo.png" alt="photo" class="photo"></div>
+                <div class="infoSection__photo"><img src="src/img/photo.png" alt="photo" class="infoSection__img"></div>
             </div>
         </section>
         <section class="aboutMeSection" id="about">
             <div class="container">
                 <h2>About me</h2>
-                <div class="textAbout">Hi, I'm Ruslan – Frontend Developer from Taganrog. <br>
+                <div class="aboutMeSection__textAbout">Hi, I'm Ruslan – Frontend Developer from Taganrog. <br>
                     I'm interested in development and everything connected with it. <br><br>
                     
                     I'm graduated Universidad del Southern Federal University <br> with an 
@@ -62,25 +68,26 @@
         <section class="skillSection" id="skills">
             <div class="container">
                 <h2>Skills</h2>
-                <div class="skillsFirst">
-                    <div class="skillIcon"><img src="src/img/html.png" alt="html"></div>
-                    <div class="skillIcon"><img src="src/img/css.png" alt="css"></div>
-                    <div class="skillIcon"><img src="src/img/js.png" alt="js"></div>
-                    <div class="skillIcon"><img src="src/img/typescript.png" alt="typescript"></div>
+                <div class="skillSection__firstLine">
+                    <div class="skillSection__icon"><img src="src/img/html.png" alt="html" title="HTML"></div>
+                    <div class="skillSection__icon"><img src="src/img/css.png" alt="css" title="CSS"></div>
+                    <div class="skillSection__icon"><img src="src/img/js.png" alt="js" title="JavaScript"></div>
+                    <div class="skillSection__icon"><img src="src/img/typescript.png" alt="typescript" title="TypeScript"></div>
+                    <div class="skillSection__icon"><img src="src/img/bem.png" alt="bem" title="БЭМ Методология"></div>
                 </div>
-                <div class="skillsSecond">
-                    <div class="skillIcon"><img src="src/img/sass.png" alt="sass"></div>
-                    <div class="skillIcon"><img src="src/img/react.jpg" alt="react"></div>
-                    <div class="skillIcon"><img src="src/img/git.png" alt="git"></div>
-                    <div class="skillIcon"><img src="src/img/web.png" alt="webpack"></div>
-                    <div class="skillIcon"><img src="src/img/figma.png" alt="figma"></div>
+                <div class="skillSection__secondLine">
+                    <div class="skillSection__icon"><img src="src/img/sass.png" alt="sass" title="Sass: Syntactically Awesome Style Sheets"></div>
+                    <div class="skillSection__icon"><img src="src/img/react.jpg" alt="react" title="React"></div>
+                    <div class="skillSection__icon"><img src="src/img/git.png" alt="git" title="GIT"></div>
+                    <div class="skillSection__icon"><img src="src/img/web.png" alt="webpack" title="WebPack"></div>
+                    <div class="skillSection__icon"><img src="src/img/figma.png" alt="figma" title="Figma"></div>
                 </div>
             </div>
         </section>
         <section class="portfolioSection" id="portfolio">
             <div class="container">
                 <h2>Portfolio</h2>
-                <div class="webinar">
+                <div class="portfolioSection__webinar">
                     <img src="src/img/webinar.png" alt="screenshot">
                     <a href="http://q991983g.beget.tech/">Webinar Landing Page - Concept</a>
                 </div>
@@ -89,32 +96,32 @@
     </main>
     <footer id="contacts">
         <h2>Contacts</h2>
-        <div class="chat">
+        <div class="contacts__chat">
             Want to know more or just chat? <br> You are welcome!
         </div>
         <div class="container">
-            <div class="social">
-                <div class="icon">  
+            <div class="contacts__social">
+                <div class="contacts__social__icon">  
                     <a href="https://t.me/RusXlan">
                         <img src="src/img/telegram.png" alt="telegram">
                     </a>
                 </div>
-                <div class="icon">
+                <div class="contacts__social__icon">
                     <a href="https://www.instagram.com/rusx161/">
                         <img src="src/img/inst.png" alt="instagram">
                     </a>
                 </div>
-                <div class="icon">
+                <div class="contacts__social__icon">
                     <a href="mailto:rusx.lan@gmail.com">
                         <img src="src/img/mail.png" alt="mail">
                     </a>
                 </div>
-                <div class="icon">
+                <div class="contacts__social__icon">
                     <a href="">
                         <img src="src/img/linkedin.png" alt="linkdn">
                     </a>
                 </div>
-                <div class="icon">
+                <div class="contacts__social__icon">
                     <a href="https://github.com/RusX61">
                         <img src="src/img/github.png" alt="github">
                     </a>

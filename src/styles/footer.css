@@ -1,0 +1,26 @@
+
+.contacts__chat{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 48px;
+}
+
+.contacts__social{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 48px;
+}
+
+.contacts__social__icon{
+    padding: 16px;
+    transition: 0.4s linear;
+}
+
+.contacts__social__icon:hover{
+    border-radius: 50%;
+    background: linear-gradient(350deg, #f0f0f0, #cacaca);
+    transform: scale(1.1);
+}

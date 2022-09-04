@@ -1,0 +1,32 @@
+
+.skillSection__firstLine{
+    margin-bottom: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillSection__secondLine{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.skillSection__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+
+.skillSection__icon img{
+    width: 88px;
+}
