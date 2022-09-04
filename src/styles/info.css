@@ -1,6 +1,6 @@
 
 .infoSection__bio{
-    padding-top: 15%;
+    padding-top: 124px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,5 +28,4 @@
 .infoSection__img{
     width: 944px;
     margin-top: 24px;
-    padding-bottom: 24px;
 }

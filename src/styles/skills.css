@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 44px;
+    padding-bottom: 44px;
 }
 
 .skillSection__icon{

@@ -4,27 +4,9 @@ body{
     position: relative;
 }
 
-header{
-    background-color: #070707;
-    position: fixed;
-    width: 100vw;
-}
-
-a{
-    text-decoration: none;
-    color: #828282;
-    transition: 0.2s ease-out;
-}
-
-a:hover{
-    color: #f0f0f0;
-    transition: 0.3s ease-in;
-}
-
 h2{
     margin: 0;
-    padding-bottom: 48px;
-    padding-top: 48px;
+    padding-bottom: 48px; 
     font-family: 'Gilroy-Bold';
     font-size: 34px;
     line-height: 42px;
@@ -38,9 +20,14 @@ h2{
     margin-right: auto;
 }
 
-#about:before, #skills:before, #portfolio:before{
+#about:before, #skills:before, #portfolio:before, #contacts::before{
 	display: block;
 	content: "";
-	height: 55px;
-	margin: -55px 0 0;
+	height: 52px;        
+}
+
+#linkAbout, #linkSkill, #linkPortfolio{
+    content: "";
+    display: block;
+    height: 52px;
 }

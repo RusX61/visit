@@ -1,7 +1,6 @@
 
-.aboutMeSection, .portfolioSection{
+.aboutMeSection{
     background-color:#F6F6F6;
-    padding-bottom: 48px;
 }
 
 .aboutMeSection__textAbout{
